@@ -1,0 +1,24 @@
+﻿@using GitHubStuff.Data;
+<input type="text" id="login" placeholder="Search" />
+<button class="btn btn-danger" id="search-button">search</button>
+<br />
+
+<h1 id="titletxt"></h1>
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Language</th>
+        <th>
+            Watchers
+            <button class="btn btn-warning" id="sort"><span class="glyphicon glyphicon-sort-by-order"></span></button>
+        </th>
+    </tr>
+
+
+</table>
+
+@section scripts{
+    
+<script src="~/Scripts/Index.js"></script>
+    }
